@@ -1,4 +1,24 @@
 {
+  "name": "react-native-template-expo-darknlight",
+  "version": "1.0.0",
+  "private": false,
+  "keywords": [
+    "react-native",
+    "styled-components",
+    "template",
+    "expo",
+    "react-navigation",
+    "dark-light",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ialexanderbrito/darknlight-template.git"
+  },
+  "homepage": "https://github.com/ialexanderbrito/darknlight-template#readme",
+  "author": "Alexander <ialexanderbrito@gmail.com>",
+  "license": "MIT",
+  
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -8,19 +28,28 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.7.6",
+    "@react-navigation/stack": "^5.9.3",
     "expo": "~39.0.2",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-appearance": "~0.3.3",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-web": "~0.13.12",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
-    "react-native-web": "~0.13.7",
     "@types/react": "~16.9.35",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
+    "@types/styled-components": "^5.1.4",
+    "react-native-web": "~0.13.7",
     "typescript": "~3.9.5"
-  },
-  "private": true
+  }
 }
