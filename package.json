@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-expo-darknlight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "keywords": [
     "react-native",
@@ -13,9 +13,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ialexanderbrito/darknlight-template.git"
+    "url": "git+https://github.com/ialexanderbrito/expo-darknlight.git"
   },
-  "homepage": "https://github.com/ialexanderbrito/darknlight-template#readme",
+  "homepage": "https://github.com/ialexanderbrito/expo-darknlight#readme",
   "author": "Alexander <ialexanderbrito@gmail.com>",
   "license": "MIT",
   
