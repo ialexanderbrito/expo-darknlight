@@ -6,7 +6,6 @@
 
   ![GitHub Language Count](https://img.shields.io/github/languages/count/ialexanderbrito/expo-darknlight?style=flat-square)
   ![GitHub Top Language](https://img.shields.io/github/languages/top/ialexanderbrito/expo-darknlight?style=flat-square)
-  ![](https://img.shields.io/github/repo-size/ialexanderbrito/expo-darknlight?style=flat-square)
   ![GitHub Issues](https://img.shields.io/github/issues/ialexanderbrito/expo-darknlight?style=flat-square)
   ![GitHub Last Commit](https://img.shields.io/github/last-commit/ialexanderbrito/expo-darknlight?style=flat-square)
   [![expo](https://img.shields.io/npm/v/expo.svg?label=Expo&style=flat-square)](https://www.npmjs.com/package/react-native-template-expo-darknlight)
