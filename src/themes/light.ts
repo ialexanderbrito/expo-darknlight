@@ -1,10 +1,10 @@
-import { DefaultTheme } from "styled-components";
+import { DefaultTheme } from 'styled-components';
 
 const lightTheme: DefaultTheme = {
   isLighten: true,
   primary: '#FFF',
   primaryDarken: '#f1faee',
-  textColor: '#000'
+  textColor: '#000',
 };
 
 export default lightTheme;

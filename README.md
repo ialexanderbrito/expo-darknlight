@@ -15,11 +15,16 @@
 <br>
 
 ### :rocket: Tecnologias usadas
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto contém as seguintes tecnologias:
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
-- [React Navigation](https://reactnavigation.org/d)
+- [React Navigation](https://reactnavigation.org/)
+  - [Native Navigation](https://reactnavigation.org/)
+  - [Stack Navigation](https://reactnavigation.org/)
 - [Styled Components](https://styled-components.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [EditorConfig](https://editorconfig.org/)
 - Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
 
 ### 💻 Projeto
@@ -38,6 +43,16 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 **[Expo](https://expo.io)**
 
 E também será preciso um editor, eu indico o **[VSCode](https://code.visualstudio.com/)**
+
+### 🧭 Instalando
+
+Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
+
+```bash
+$ expo init --template react-native-template-expo-darknlight
+```
+
+Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
 
 ### 📁 Estrtura de Arquivos
 
@@ -61,23 +76,11 @@ expo-darknlight
 ├── babel.config.js
 ├── App.tsx
 ├── app.json
-├── LICENSE
 ├── tsconfig.json
 ├── package.json
-└── README.md
  ```
 
-### 🧭 Instalando
-
-Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
-
-```bash
-$ expo init --template react-native-template-expo-darknlight
-```
-
-Com isso o projeto será criado com todas as dependências do template devidamente instaladas e linkadas, tal como os arquivos de configuração que são copiados para o projeto.
-
-### Edição
+### 🗂 Edição
 
 Nesta seção haverão instruções caso você queira editar o template, explicando para que os diretórios são utilizados e também os arquivos de configuração.
 
@@ -101,6 +104,18 @@ Nesta seção haverão instruções caso você queira editar o template, explica
 
 - **package.json** - Diferente dos projetos comuns, esse arquivo tem as configurações necessárias para a publicação do Template no NPM, para saber mais sobre isso veja a seção abaixo.
 
+### 🔄 Notas de Atualização
+
+- 1.0.0
+  - Versão Inicial do Projeto.
+- 1.0.2
+  - Removido algumas pastas.
+- 1.0.3
+  - Adicionado ESLint, Prettier e EditorConfig.
+  - Padronização dos códigos.
+- 1.0.4
+  - Correção de erros e bugs.
+
 ### :recycle: Como contribuir
 
 - Fork esse repositório;
@@ -121,23 +136,23 @@ Me acompanhe nas minhas redes sociais.
 <p align="center">
 
    <a href="https://github.com/ialexanderbrito" target="_blank" >
-    <img alt="Github" src="https://img.shields.io/badge/-Github-lightgrey?style=flat-square&logo=Github&logoColor=white"></a> 
-    
- <a href="https://twitter.com/ialexanderbrito" target="_blank" > 
-     <img alt="Twitter" src="https://img.shields.io/badge/-Twitter-9cf?style=flat-square&logo=Twitter&logoColor=white"></a> 
-  
+    <img alt="Github" src="https://img.shields.io/badge/-Github-lightgrey?style=flat-square&logo=Github&logoColor=white"></a>
+
+ <a href="https://twitter.com/ialexanderbrito" target="_blank" >
+     <img alt="Twitter" src="https://img.shields.io/badge/-Twitter-9cf?style=flat-square&logo=Twitter&logoColor=white"></a>
+
   <a href="https://instagram.com/ialexanderbrito" target="_blank" >
-    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-ff2b8e?style=flat-square&logo=Instagram&logoColor=white"></a> 
-  
+    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-ff2b8e?style=flat-square&logo=Instagram&logoColor=white"></a>
+
   <a href="https://facebook.com/ialexanderbrito" target="_blank" >
-    <img alt="Facebook" src="https://img.shields.io/badge/-Facebook-blue?style=flat-square&logo=Facebook&logoColor=white"></a> 
+    <img alt="Facebook" src="https://img.shields.io/badge/-Facebook-blue?style=flat-square&logo=Facebook&logoColor=white"></a>
 
   <a href="https://www.linkedin.com/in/ialexanderbrito/" target="_blank" >
-    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white"></a> 
-  
+    <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
+
   <a href="mailto:ialexanderbrito@gmail.com" target="_blank" >
-    <img alt="Email" src="https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white"></a> 
-  
+    <img alt="Email" src="https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white"></a>
+
   <a href="https://api.whatsapp.com/send?phone=5521979434402" target="_blank" >
     <img alt="WhatsApp" src="https://img.shields.io/badge/-WhatsApp-brightgreen?style=flat-square&logo=WhatsApp&logoColor=white"></a>
 </p>

@@ -12,16 +12,17 @@ const AppStack = createStackNavigator();
 const Routes: React.FC = () => {
   const theme = useTheme();
 
-  return(
+  return (
     <NavigationContainer>
-    <StatusBar 
-      backgroundColor={theme.primary} 
-      barStyle={theme.isLighten ? 'dark-content' : 'light-content'} />
+      <StatusBar
+        backgroundColor={theme.primary}
+        barStyle={theme.isLighten ? 'dark-content' : 'light-content'}
+      />
       <AppStack.Navigator screenOptions={{ headerShown: false }}>
         <AppStack.Screen name="Home" component={Home} />
       </AppStack.Navigator>
     </NavigationContainer>
-  )
-}
+  );
+};
 
 export default Routes;

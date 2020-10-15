@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-expo-darknlight",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "private": false,
   "keywords": [
     "react-native",
@@ -9,7 +9,10 @@
     "expo",
     "react-navigation",
     "dark-light",
-    "typescript"
+    "typescript",
+    "eslint",
+    "prettier",
+    "editorconfig"
   ],
   "repository": {
     "type": "git",
@@ -18,7 +21,6 @@
   "homepage": "https://github.com/ialexanderbrito/expo-darknlight#readme",
   "author": "Alexander <ialexanderbrito@gmail.com>",
   "license": "MIT",
-  
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -49,6 +51,18 @@
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
     "@types/styled-components": "^5.1.4",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "2.5.0",
+    "prettier": "^2.1.2",
     "react-native-web": "~0.13.7",
     "typescript": "~3.9.5"
   }

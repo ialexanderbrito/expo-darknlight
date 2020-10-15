@@ -1,0 +1,10 @@
+README
+LICENSE
+CHANGELOG
+
+.git
+.github
+.gitignore
+.npmignore
+
+yarn.lock

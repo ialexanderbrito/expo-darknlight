@@ -9,11 +9,11 @@ import getTheme from './themes';
 const Main: React.FC = () => {
   const isDark = useColorScheme() === 'dark';
 
-  return(
+  return (
     <ThemeProvider theme={getTheme(isDark)}>
-      <Routes/>
+      <Routes />
     </ThemeProvider>
-  )
-}
+  );
+};
 
 export default Main;
