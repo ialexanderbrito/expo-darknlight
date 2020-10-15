@@ -3,14 +3,15 @@
  <b>☀🌑 Expo Dark Light Template</b>
 </h4>
 <p align="center">
-
-  ![GitHub Language Count](https://img.shields.io/github/languages/count/ialexanderbrito/expo-darknlight?style=flat-square)
-  ![GitHub Top Language](https://img.shields.io/github/languages/top/ialexanderbrito/expo-darknlight?style=flat-square)
-  ![GitHub Issues](https://img.shields.io/github/issues/ialexanderbrito/expo-darknlight?style=flat-square)
-  ![GitHub Last Commit](https://img.shields.io/github/last-commit/ialexanderbrito/expo-darknlight?style=flat-square)
-  [![expo](https://img.shields.io/npm/v/expo.svg?label=Expo&style=flat-square)](https://www.npmjs.com/package/react-native-template-expo-darknlight)
-  [![npm](https://img.shields.io/npm/v/react-native-template-expo-darknlight.svg?label=Expo%20Dark%20n%20Light&style=flat-square)](https://www.npmjs.com/package/react-native-template-expo-darknlight)
-  ![Github License](https://img.shields.io/github/license/ialexanderbrito/expo-darknlight?style=flat-square)
+    <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ialexanderbrito/expo-darknlight?style=flat-square">
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ialexanderbrito/expo-darknlight?style=flat-square">
+    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/ialexanderbrito/expo-darknlight?style=flat-square">
+    <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ialexanderbrito/expo-darknlight?style=flat-square">
+    <a href="https://www.npmjs.com/package/react-native-template-expo-darknlight">
+    <img alt="Expo" src="https://img.shields.io/npm/v/expo.svg?label=Expo&style=flat-square"></a>
+    <a href="https://www.npmjs.com/package/react-native-template-expo-darknlight">
+    <img alt="NPM" src="https://img.shields.io/npm/v/react-native-template-expo-darknlight.svg?label=Expo%20Dark%20n%20Light&style=flat-square"></a>
+    <img alt="License" src="https://img.shields.io/github/license/ialexanderbrito/expo-darknlight?style=flat-square">
 </p>
 <br>
 
@@ -114,6 +115,8 @@ Nesta seção haverão instruções caso você queira editar o template, explica
   - Adicionado ESLint, Prettier e EditorConfig.
   - Padronização dos códigos.
 - 1.0.4
+  - Correção de erros e bugs.
+- 1.0.5
   - Correção de erros e bugs.
 
 ### :recycle: Como contribuir
